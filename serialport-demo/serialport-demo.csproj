@@ -5,6 +5,6 @@
     <RootNamespace>serialport_demo</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SerialPortStream" Version="2.2.0"/>
+    <PackageReference Include="SerialPortStream" Version="2.2.0" />
   </ItemGroup>
 </Project>
