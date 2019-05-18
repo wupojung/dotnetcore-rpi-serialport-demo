@@ -56,7 +56,7 @@ namespace serialport_demo
             // Are we on Unix?
             if (p == 4 || p == 128 || p == 6)
             {
-                string[] ttys = System.IO.Directory.GetFiles("/dev/", @"tty\*");
+                string[] ttys = System.IO.Directory.GetFiles("/dev/", @"tty*");
                 foreach (string dev in ttys)
                 {
                     if (dev.StartsWith("/dev/ttyS") || dev.StartsWith("/dev/ttyUSB") || dev.StartsWith("/dev/ttyACM") || dev.StartsWith("/dev/ttyAMA"))
