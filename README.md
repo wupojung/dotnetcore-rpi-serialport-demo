@@ -9,6 +9,6 @@ dotnet new console –o serialport-demo
 ```
 
 ## publish with linux
-```
-dotnet publish -r linux-arm
+```shell=
+dotnet publish -c Release -r linux-arm
 ```
